@@ -1,0 +1,109 @@
+#navbar{
+    border-right:1px solid grey;
+    height: 1000px;
+    width:300px;
+    display: block;
+    float: left;
+    margin-left: -110px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+#classroom{
+
+    color: rgb(158, 157, 157);
+    text-decoration: none;
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#classroom:hover{
+    color: rgb(16, 148, 16);
+    text-decoration: underline;
+}
+#top{
+    float:left;
+}
+#banner{
+    float: right;
+    margin-top: 70px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.links{
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    border: 5px solid white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.links:hover{
+    background-color: rgb(220, 219, 219);
+    border-radius: 10px;
+}
+.classes{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: inline-flex;
+    border-radius: 15px;
+    margin: 10px;
+}
+.classes:hover{
+    box-shadow: 2px 2px 1px gray;
+    cursor: pointer;
+}
+.upper{
+    overflow:visible;
+    width:300px;
+    height: 40%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: yellow;
+}
+.sub{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:solid;
+    color: black;
+}
+.sub:hover{
+    text-decoration: underline;
+}
+.ClassBanner{
+    line-height: 200px;
+    margin-left: 250px;
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.notes{
+    line-height: 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+    height: 100px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius:10px ;
+    text-align: center;
+    box-shadow: 5px 5px 3px gainsboro;
+}
+.notes a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.notes a:hover{
+    background-color:gainsboro;
+}
