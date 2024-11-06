@@ -100,6 +100,9 @@
     background-color: yellow;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.ClassBanner h1{
     font-size: 150%;
 }
 
@@ -133,8 +136,10 @@
     }
     .notes{
         margin-left:0%;
+        font-size: 100%;
     }
     .classBanner{
         width:100%;
+        margin-left: 0%;
     }
 }
