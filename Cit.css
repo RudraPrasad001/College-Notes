@@ -55,7 +55,7 @@
 
 .classes {
     height: 50%;
-    width: 30%;
+    width: 50%;
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
@@ -133,6 +133,9 @@
 }
 
 @media (max-width:480px) {
+    .classes{
+        width: 100%;
+    }
     #navbar {
         width: 0%;
     }
