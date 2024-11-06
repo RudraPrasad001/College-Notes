@@ -103,6 +103,8 @@
     
 }
 .ClassBanner h1{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 150%;
 }
 
