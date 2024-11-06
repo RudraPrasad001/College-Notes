@@ -1,114 +1,140 @@
-#navbar{
-    border-right:1px solid grey;
-    height: 1000px;
-    width:300px;
+#navbar {
+    border-right: 1px solid grey;
+    height: 100%;
+    width: 25%;
     display: block;
     float: left;
-    margin-left: -110px;
-    margin-right: 5px;
+    margin-left: -5%;
+    margin-right: 1%;
     overflow: hidden;
 }
-#classroom{
 
+#top{
+    float: left;
+}
+
+#classroom {
     color: rgb(158, 157, 157);
     text-decoration: none;
-    font-size:40px;
+    font-size: 150%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#classroom:hover{
+
+#classroom:hover {
     color: rgb(16, 148, 16);
     text-decoration: underline;
 }
-#top{
-    float:left;
+
+.classesContainer{
+    display: flex;
+    flex-wrap: wrap;
 }
-#banner{
+
+#banner {
     float: right;
-    margin-top: 70px;
+    margin-top: 7%;
     border: 1px solid;
-    border-radius: 50px;
+    border-radius: 50%;
 }
-.links{
-    line-height: 40px;
-    height: 40px;
+
+.links {
+    line-height: 5vh; /* Line height based on viewport height */
+    height: 5vh;
     display: block;
     text-decoration: none;
-    color:black;
+    color: black;
     text-align: center;
-    border: 5px solid white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.5vw solid white; /* Border thickness relative to width */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-}
-.links:hover{
+.links:hover {
     background-color: rgb(220, 219, 219);
-    border-radius: 10px;
+    border-radius: 1vw;
 }
-.classes{
-    height: 300px;
-    width: 300px;
+
+.classes {
+    height: 50%;
+    width: 30%;
     border: 1px solid black;
     display: inline-flex;
-    border-radius: 15px;
-    margin: 10px;
+    flex-direction: column;
+    border-radius: 2%;
+    margin: 2%;
 }
-.classes:hover{
-    box-shadow: 2px 2px 1px gray;
+
+.classes:hover {
+    box-shadow: 0.5vw 0.5vw 0.2vw gray;
     cursor: pointer;
 }
-.upper{
-    overflow:visible;
-    width:300px;
-    height: 40%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+
+.upper {
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
     background-color: yellow;
 }
-.sub{
+
+.sub {
     text-align: center;
-    font-size: 25px;
-    padding-left: 3px;
+    font-size: 200%;
+    padding-left: 1%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration:solid;
+    text-decoration: solid;
     color: black;
 }
-.sub:hover{
+
+.sub:hover {
     text-decoration: underline;
 }
-.ClassBanner{
-    line-height: 200px;
-    margin-left: 250px;
-    width: 80%;
-    height: 200px;
-    border-radius: 10px;
+
+.ClassBanner {
+    display: inline-flex;
+    flex-wrap: wrap;
+    line-height: 15vw; /* Height in vw for responsiveness */
+    margin-left: 5%;
+    width: 50%;
+    height: 20vw;
+    border-radius: 2%;
     background-color: yellow;
-    text-align:center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-}
-.notes{
-    line-height: 100px;
-    margin-left: 250px;
-    margin-top: 100px;
-    height: 100px;
-    width: 80%;
-    border: 1px solid grey;
-    border-radius:10px ;
     text-align: center;
-    box-shadow: 5px 5px 3px gainsboro;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
 }
-.notes a{
+
+.notes {
+    line-height: 550%;
+    margin-left: 26%;
+    height: 150%;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 2%;
+    text-align: center;
+    box-shadow: 1vw 1vw 0.5vw gainsboro;
+}
+
+.notes a {
     text-decoration: none;
     color: black;
-    padding: 10px 0;
-    font-size: 50px;
-    border: 2px solid black;
-    border-radius: 5px;
+    padding: 1.5vw 0;
+    font-size: 150%;
+    border: 0.3vw solid black;
+    border-radius: 1%;
 }
-.notes a:hover{
-    background-color:gainsboro;
+
+.notes a:hover {
+    background-color: gainsboro;
 }
+
 @media (max-width:480px) {
     #navbar {
         width: 0%;
+    }
+    .notes{
+        margin-left:0%;
+    }
+    .classBanner{
+        width:100%;
     }
 }
