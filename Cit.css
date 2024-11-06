@@ -107,3 +107,8 @@
 .notes a:hover{
     background-color:gainsboro;
 }
+@media (max-width:480px) {
+    #navbar {
+        width: 0%;
+    }
+}
