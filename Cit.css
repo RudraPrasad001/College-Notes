@@ -139,8 +139,10 @@
     .notes{
         margin-left:0%;
         font-size: 100%;
+        width: 100%;
     }
     .classBanner{
+        font-size: 100%;
         width:100%;
         margin-left: 0%;
     }
